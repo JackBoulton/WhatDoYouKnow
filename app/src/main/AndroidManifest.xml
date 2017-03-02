@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dim.whatdoyouknow">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- main activity -->
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- children of main: Hiri -->
+        <activity
+            android:name=".actHiri"
+            android:label="Hirigana"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.MainActivity"
+                android:value="dim.whatdoyouknow.MainActivity" />
+        </activity>
+        <activity
+            android:name=".actJap"
+            android:label="Japanese"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.MainActivity"
+                android:value="dim.whatdoyouknow.MainActivity" />
+        </activity>
+        <activity
+            android:name=".actPeople"
+            android:label="People"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.MainActivity"
+                android:value="dim.whatdoyouknow.MainActivity" />
+        </activity>
+        <activity
+            android:name=".actCreature"
+            android:label="Creature"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.MainActivity"
+                android:value="dim.whatdoyouknow.MainActivity" />
+        </activity>
+        <!--children of actJap -->
+        <activity
+            android:name=".actJap2"
+            android:label="A - あ"
+            android:parentActivityName=".actJap">
+            <meta-data
+                android:name="android:support.actJap"
+                android:value="dim.whatdoyouknow.actJap" />
+        </activity>
+    </application>
+
+</manifest>

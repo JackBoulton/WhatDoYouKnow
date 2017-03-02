@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Wakatteru</string>
+    <string name="button_hira">Learn Hiragana</string>
+    <string name="button_speak">Speak Japanese</string>
+    <string name="button_people">Know People</string>
+    <string name="button_creature">Know Creatures</string>
+    <string name="title_activity_act_jap">Speak Japanese</string>
+    <string name="japButton1">あ</string>
+    <string name="japPage1">Before you start learning Japanese, first you need to know how they speak.\nJapanese uses a lot of A, E, I, O and U and these sound different than they do in English\n\nOur first lesson will be on learning to say A, I, U, E and O\n\nNext lesson...</string>
+    <string name="japA1">\nSounds like the A in 'C-a-r' or 'A-wful'\n\nCan you say A?\n\nImagine you've just thought of a great idea, telling everyone ''Ah! That's it!''\n\nRemember, vowel sounds always sound the same in Japanese. Not like English where the A sound in 'today' and the A sound in 'car' are different</string>
+</resources>
