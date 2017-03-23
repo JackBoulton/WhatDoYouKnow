@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/creatureText1"
+                android:text="@string/creatureText2"
                 android:textSize="18sp"/>
         </LinearLayout>
         <LinearLayout
@@ -31,8 +31,8 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/gotoCreature2"
-                android:onClick="gotoCreature2"/>
+                android:id="@+id/gotoCreature3"
+                android:onClick="gotoCreature3"/>
         </LinearLayout>
     </LinearLayout>
     <ListView

@@ -5,7 +5,34 @@
     <string name="button_people">Know People</string>
     <string name="button_creature">Know Creatures</string>
     <string name="title_activity_act_jap">Speak Japanese</string>
-    <string name="japButton1">あ</string>
-    <string name="japPage1">Before you start learning Japanese, first you need to know how they speak.\nJapanese uses a lot of A, E, I, O and U and these sound different than they do in English\n\nOur first lesson will be on learning to say A, I, U, E and O\n\nNext lesson...</string>
-    <string name="japA1">\nSounds like the A in 'C-a-r' or 'A-wful'\n\nCan you say A?\n\nImagine you've just thought of a great idea, telling everyone ''Ah! That's it!''\n\nRemember, vowel sounds always sound the same in Japanese. Not like English where the A sound in 'today' and the A sound in 'car' are different</string>
+    <string name="jap2Title">あ</string>
+    <string name="japPage1">Before you start learning Japanese, first you need to know how they speak.\nJapanese uses a lot of A, E, I, O and U and these sound different than they do in English\n\nOur first lesson will be on learning to say A, I, U, E and O\n\nNext lesson&#8230;</string>
+    <string name="japA1">\nSounds like the A in \'C-a-r\' or \'A-wful\'\n\nCan you say A?\n\nImagine you\'ve just thought of a great idea, telling everyone \"Ah! That\'s it!\"\n\nRemember, vowel sounds always sound the same in Japanese. Not like English where the A sound in \'today\' and the A sound in \'car\' are different</string>
+    <string name="jap3Title">い</string>
+    <string name="jap4Title">う</string>
+    <string name="jap5Title">え</string>
+    <string name="jap6Title">お</string>
+    <string name="jap3Body">\nSounds like the English \'E\'. Imagine the \'E\' sound in Eel\n\nIt might be hard to remember because \'い\' sounds like the English \'E\', not \'I\' but try to use that to help you. Remember that it\'s not the same and remember the eels</string>
+    <string name="title_activity_act_jap4">actJap4</string>
+    <!--navigation drawer strings-->
+    <string-array name="titleArray">
+        <item>Home</item>
+        <item>Speak</item>
+        <item>Creatures</item>
+        <item>People</item>
+        <item>Hirigana</item>
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+    <string name="creatureText1">\nNow you can say the vowels, it\'s time to learn the words.\n\nHere, you will learn the words for 4 animals and be tests on at the end.\n\nAre you ready?</string>
+    <string name="creatureText2">\nDo you recognise this creature? \n\nThis is a cat. You or your friends may have one living with you.\n\nIn Japanese, a cat is Neko.\n\nTry saying this aloud, Neko.</string>
+    <string name="creatureText3">\nWhat about this one, can you name it?\n\nRabbit, usually kept in huts filled with straw to keep them comfy. Sometimes you can see them in the wild.\n\nThe Japanese know rabbit as Usagi.\n\nSay it with me, Usagi.</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
 </resources>

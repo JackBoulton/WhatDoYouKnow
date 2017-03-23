@@ -7,7 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
 
         <!-- main activity -->
         <activity android:name=".MainActivity">
@@ -19,46 +19,67 @@
         </activity>
         <!-- children of main: Hiri -->
         <activity
-            android:name=".actHiri"
-            android:label="Hirigana"
-            android:parentActivityName=".MainActivity">
-            <meta-data
-                android:name="android.support.MainActivity"
-                android:value="dim.whatdoyouknow.MainActivity" />
-        </activity>
-        <activity
             android:name=".actJap"
-            android:label="Japanese"
-            android:parentActivityName=".MainActivity">
+            android:label="Japanese">
             <meta-data
                 android:name="android.support.MainActivity"
                 android:value="dim.whatdoyouknow.MainActivity" />
         </activity>
         <activity
             android:name=".actPeople"
-            android:label="People"
-            android:parentActivityName=".MainActivity">
+            android:label="People">
             <meta-data
                 android:name="android.support.MainActivity"
                 android:value="dim.whatdoyouknow.MainActivity" />
         </activity>
         <activity
             android:name=".actCreature"
-            android:label="Creature"
-            android:parentActivityName=".MainActivity">
+            android:label="Creatures">
             <meta-data
                 android:name="android.support.MainActivity"
                 android:value="dim.whatdoyouknow.MainActivity" />
         </activity>
-        <!--children of actJap -->
+        <!-- children of actJap -->
         <activity
             android:name=".actJap2"
-            android:label="A - あ"
-            android:parentActivityName=".actJap">
+            android:label="A - あ">
             <meta-data
                 android:name="android:support.actJap"
                 android:value="dim.whatdoyouknow.actJap" />
         </activity>
+        <activity
+            android:name=".actJap3"
+            android:label="I - い">
+            <meta-data
+                android:name="android:support.actJap2"
+                android:value="dim.whatdoyouknow.actJap2" />
+        </activity>
+        <activity
+            android:name=".actJap4"
+            android:label="U - う">
+            <meta-data
+                android:name="android:support.actJap3"
+                android:value="dim.whatdoyouknow.actJap3" />
+        </activity>
+        <activity
+            android:name=".actJap5"
+            android:label="E - え">
+            <meta-data
+                android:name="android:support.actJap4"
+                android:value="dim.whatdoyouknow.actJap4" />
+        </activity>
+        <activity
+            android:name=".actJap6"
+            android:label="O - お">
+            <meta-data
+                android:name="android:support.actJap5"
+                android:value="dim.whatdoyouknow.actJap5" />
+        </activity>
+        <activity android:name=".actCreature2" />
+        <activity android:name=".templateActivity" />
+        <activity android:name=".actTest" />
+        <activity android:name=".actCreature3" />
+        <activity android:name=".actCreature4"></activity>
     </application>
 
 </manifest>
