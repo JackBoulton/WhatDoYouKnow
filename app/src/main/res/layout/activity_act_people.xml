@@ -4,6 +4,37 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/peopleBody1"
+                android:textSize="18sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/template"
+                android:onClick="gotoPeople2"/>
+        </LinearLayout>
+    </LinearLayout>
     <ListView
         android:id="@+id/left_drawer"
         android:layout_width="240dp"

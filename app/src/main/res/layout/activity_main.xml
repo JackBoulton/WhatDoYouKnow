@@ -41,7 +41,7 @@
                 android:layout_width="0px"
                 android:layout_height="fill_parent"
                 android:layout_weight="0.5"
-                android:text="@string/button_hira"
+                android:text="@string/button_test"
                 android:onClick="gotoTest"/>
         </LinearLayout>
     </LinearLayout>

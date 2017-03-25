@@ -17,7 +17,7 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/creatureText4"
+                android:text=""
                 android:textSize="18sp"/>
         </LinearLayout>
         <LinearLayout
@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/template"
-                android:onClick="gotoCreature5"/>
+                android:onClick=""/>
         </LinearLayout>
     </LinearLayout>
     <ListView

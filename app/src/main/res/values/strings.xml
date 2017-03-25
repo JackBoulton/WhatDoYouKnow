@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Wakatteru</string>
-    <string name="button_hira">Learn Hiragana</string>
+    <string name="button_test">Test Yourself</string>
     <string name="button_speak">Speak Japanese</string>
     <string name="button_people">Know People</string>
     <string name="button_creature">Know Creatures</string>
@@ -13,6 +13,9 @@
     <string name="jap5Title">え</string>
     <string name="jap6Title">お</string>
     <string name="jap3Body">\nSounds like the English \'E\'. Imagine the \'E\' sound in Eel\n\nIt might be hard to remember because \'い\' sounds like the English \'E\', not \'I\' but try to use that to help you. Remember that it\'s not the same and remember the eels</string>
+    <string name="jap4Body">\nSounds like \'oo\'. Like seeing gorgeous display happen in front of you. \nIt is the same sound as the \'ou\' in \'You\'. \n\n\'う\' is the direct translation of our English \'U\'. If you look closely you can see that \'う\' looks like a \'U\' on its side. Use this to help you remember.</string>
+    <string name="jap5Body">\nSounds like the \'E\' in \'Egg\'.\n\nThe symbol for this sound is \'え\' which, when you look at it really hard, looks like a bird, an \'e\'xotic bird. Use this to help you.</string>
+    <string name="jap6Body">\nSounds like \'oh\', or like the \'O\' in our English alphabet.\n\nThis is a simple one to remember. The symbol for this sound is \'お\' and this symbol has a \'o\' shape inside of it.\n\'O\' is how it is pronounced in English and also how it looks in Japanese.</string>
     <string name="title_activity_act_jap4">actJap4</string>
     <!--navigation drawer strings-->
     <string-array name="titleArray">
@@ -30,9 +33,16 @@
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
     </array>
-    <string name="creatureText1">\nNow you can say the vowels, it\'s time to learn the words.\n\nHere, you will learn the words for 4 animals and be tests on at the end.\n\nAre you ready?</string>
-    <string name="creatureText2">\nDo you recognise this creature? \n\nThis is a cat. You or your friends may have one living with you.\n\nIn Japanese, a cat is Neko.\n\nTry saying this aloud, Neko.</string>
-    <string name="creatureText3">\nWhat about this one, can you name it?\n\nRabbit, usually kept in huts filled with straw to keep them comfy. Sometimes you can see them in the wild.\n\nThe Japanese know rabbit as Usagi.\n\nSay it with me, Usagi.</string>
+    <string name="creatureText1">\nNow you can say the vowels, it\'s time to learn the words.\n\nHere, you will learn the words for 4 animals which may be included in the test at the end.\n\nAre you ready?</string>
+    <string name="creatureText2">\nDo you recognise this creature? \n\nThis is a cat. You or your friends may have one living with you.\n\nIn Japanese, a cat is \'Neko\'.\n\nTry saying this aloud, Neko.</string>
+    <string name="creatureText3">\nWhat about this one, can you name it?\n\nRabbit, usually kept in huts filled with straw to keep them comfy. Sometimes you can see them in the wild.\n\nThe Japanese know rabbit as \'Usagi\'.\n\nSay it with me, Usagi.</string>
+    <string name="creatureText4">\nThis creature we know as a dog.\n\nDogs are friendly, loyal animals that love to go on walks and bring back sticks you throw for them. You or your friends may have one.\n\nIn Japan, a dog is known as \'Inu\'. This word may sounds a little familiar. This is because there is a type of dog called a \'Shiba Inu\', meaning \'small dog\' or \'shrub dog\'\n\n Can you say Inu? Try it, Inu.</string>
+    <string name="creatureText5">\nYou may or may not recognise this creature. Can you guess what it is? It\'s a fox!\n\nFoxes have been known to roam around cities or keep to themselves in the wild.\n\nThe fox in Japanese is known by \'Kitsune\'. Say Kitsune aloud, Kitsune.\n\nThe next lesson will teach you what to call the close people around you.</string>
+    <string name="peopleBody1">In this lesson, we will learn what you would call those around you.\n\nThis section can get a little confusing because it includes honorifics. \n\nThis may sound like a scary word but we will only focus on the common ones for each word.\n\nBecause of honorifics, there will only be three new words in this lesson as not to throw too much new stuff at you.</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="testQ1A1">Answer 1</string>
+    <string name="testQ1A2">Answer 2</string>
+    <string name="testQ1A3">Answer 3</string>
+    <string name="testQ1A4">Answer 4</string>
 </resources>
