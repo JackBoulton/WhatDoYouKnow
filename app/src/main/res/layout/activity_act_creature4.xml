@@ -8,17 +8,23 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:src="@mipmap/dob"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:padding="15dp"
-            android:layout_weight="0.3"
+            android:layout_weight="0.4"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
             android:orientation="vertical">
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/creatureText4"
-                android:textSize="18sp"/>
+                android:textSize="17sp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="fill_parent"
@@ -26,13 +32,42 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:orientation="vertical"
-            android:layout_weight="0.5">
-            <Button
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.4">
+                <Button
+                    android:id="@+id/gotoJap4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/creatureTitle4"
+                    android:textSize="70sp"
+                    android:onClick="gotoCreature5"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/template"
-                android:onClick="gotoCreature5"/>
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                style="?android:attr/buttonBarStyle">
+                <Button
+                    android:id="@+id/gotoJap2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/creatureTitle1"
+                    android:onClick="gotoCreature2"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/gotoJap6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/creatureTitle3"
+                    android:onClick="gotoCreature3"
+                    android:layout_weight="1" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
     <ListView

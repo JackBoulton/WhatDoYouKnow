@@ -2,6 +2,8 @@ package dim.whatdoyouknow;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -13,6 +15,11 @@ public class actTest2 extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         setContentView(R.layout.activity_act_test2);
         super.onCreate(savedInstanceState);
+
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
+        player = MediaPlayer.create(this, R.raw.testclip1);
+        player.start();
+
     }
     public void answer1 (View view){
         Toast.makeText(this, "That's not it, try again", Toast.LENGTH_SHORT).show();
@@ -24,6 +31,7 @@ public class actTest2 extends BaseActivity {
         Toast.makeText(this, "That's not it, try again", Toast.LENGTH_SHORT).show();
     }
     public void answer4 (View view){
+        stopMusic();
             Toast.makeText(this, "That's right!", Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override

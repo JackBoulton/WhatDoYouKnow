@@ -26,13 +26,49 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:paddingBottom="10dp"
-            android:orientation="vertical"
-            android:layout_weight="0.5">
-            <Button
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.4">
+                <Button
+                    android:id="@+id/gotoJap4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="@string/creatureTitle1"
+                    android:textSize="75sp"
+                    android:onClick="gotoCreature2"/>
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/gotoCreature2"
-                android:onClick="gotoCreature2"/>
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                style="?android:attr/buttonBarStyle">
+                <Button
+                    android:id="@+id/gotoJap2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/creatureTitle3"
+                    android:onClick="gotoCreature3"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/gotoJap5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/creatureTitle2"
+                    android:onClick="gotoCreature4"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/gotoJap6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/creatureTitle4"
+                    android:onClick="gotoCreature5"
+                    android:layout_weight="1" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
     <ListView

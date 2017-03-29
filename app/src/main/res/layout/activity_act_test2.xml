@@ -6,46 +6,53 @@
     android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
         <TextView
             android:id="@+id/TestQuestion"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="\nWhat is 'Kitsune' in English?\n"
-            android:textSize="26sp"/>
-        <Button
-            android:id="@+id/answer1"
-            android:layout_width="fill_parent"
-            android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/TestQuestion"
-            android:text="@string/testQ1A1"
-            android:onClick="answer1"/>
-        <Button
-            android:id="@+id/answer2"
-            android:layout_width="fill_parent"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/answer1"
-            android:text="@string/testQ1A2"
-            android:onClick="answer2"/>
-        <Button
-            android:id="@+id/answer3"
-            android:layout_width="fill_parent"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/answer2"
-            android:text="@string/testQ1A3"
-            android:onClick="answer3"/>
-        <Button
-            android:id="@+id/answer4"
-            android:layout_width="fill_parent"
-            android:layout_height="100dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@id/answer3"
-            android:text="@string/testQ1A4"
-            android:onClick="answer4"/>
-
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@id/TestQuestion">
+            <Button
+                android:id="@+id/answer1"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/testQ1A1"
+                android:onClick="answer1"/>
+            <Button
+                android:id="@+id/answer2"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/testQ1A2"
+                android:onClick="answer2"/>
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/testQ1A3"
+                android:onClick="answer3"/>
+            <Button
+                android:id="@+id/answer4"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/testQ1A4"
+                android:onClick="answer4"/>
+        </LinearLayout>
     </RelativeLayout>
     <ListView
         android:id="@+id/left_drawer"

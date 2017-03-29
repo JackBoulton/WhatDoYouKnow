@@ -2,6 +2,7 @@ package dim.whatdoyouknow;
 
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
@@ -21,6 +22,7 @@ public class BaseActivity extends AppCompatActivity {
     private CharSequence mDrawerTitle;
     private CharSequence mTitle;
     private String[] mTitles;
+    public MediaPlayer player;
     /*@Override
     public void setContentView(@LayoutRes int layoutResID) {
         super.setContentView(layoutResID);
@@ -132,37 +134,62 @@ public class BaseActivity extends AppCompatActivity {
         // Pass any configuration change to the drawer toggles
         mDrawerToggle.onConfigurationChanged(newConfig);
     }
+
+    protected void stopMusic(){
+        player.stop();
+    }
 /*Jap Navigation*/
+    public void goHome(View view){
+        startActivity(new Intent(this, MainActivity.class));    stopMusic();
+    }
     public void gotoJap2(View view){
         Intent intJap2 = new Intent(this, actJap2.class);
         startActivity(intJap2);
+        stopMusic();
     }
     public void gotoJap3(View view){
         Intent intJap3 = new Intent(this, actJap3.class);
         startActivity(intJap3);
+        stopMusic();
     }
     public void gotoJap4(View view) {
         Intent intJap4 = new Intent(this, actJap4.class);
         startActivity(intJap4);
+        stopMusic();
     }
     public void gotoJap5(View view) {
         Intent intJap5 = new Intent(this, actJap5.class);
         startActivity(intJap5);
+        stopMusic();
     }
     public void gotoJap6(View view) {
         Intent intJap6 = new Intent(this, actJap6.class);
         startActivity(intJap6);
+        stopMusic();
     }
     public void gotoPeople3(View view){
         startActivity(new Intent(this,actPeople3.class));
+        stopMusic();
     }
     public void gotoPeople4(View view){
-        startActivity(new Intent(this,actPeople4.class));
+        startActivity(new Intent(this,actPeople4.class));    stopMusic();
     }
     public void gotoPeople5(View view){
-        startActivity(new Intent(this,actPeople5.class));
+        startActivity(new Intent(this,actPeople5.class));    stopMusic();
     }
     public void gotoPeople6(View view){
-        startActivity(new Intent(this,actPeople6.class));
+        startActivity(new Intent(this,actPeople6.class));    stopMusic();
+    }
+    public void gotoCreature2(View view){
+        startActivity(new Intent(this, actCreature2.class));    stopMusic();
+    }
+    public void gotoCreature3(View view){
+        startActivity(new Intent(this, actCreature3.class));    stopMusic();
+    }
+    public void gotoCreature4(View view){
+        startActivity(new Intent(this, actCreature4.class));    stopMusic();
+    }
+    public void gotoCreature5(View view){
+        startActivity(new Intent(this, actCreature5.class));    stopMusic();
     }
 }
