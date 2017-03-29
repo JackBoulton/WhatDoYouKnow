@@ -13,7 +13,7 @@
     <string name="jap5Title">え</string>
     <string name="jap6Title">お</string>
     <string name="jap3Body">\nSounds like the English \'E\'. Imagine the \'E\' sound in Eel\n\nIt might be hard to remember because \'い\' sounds like the English \'E\', not \'I\' but try to use that to help you. Remember that it\'s not the same and remember the eels</string>
-    <string name="jap4Body">\nSounds like \'oo\'. Like seeing gorgeous display happen in front of you. \nIt is the same sound as the \'ou\' in \'You\'. \n\n\'う\' is the direct translation of our English \'U\'. If you look closely you can see that \'う\' looks like a \'U\' on its side. Use this to help you remember.</string>
+    <string name="jap4Body">\nSounds like \'oo\'. Like seeing a gorgeous display happen in front of you. \nIt is the same sound as the \'ou\' in \'You\'. \n\n\'う\' is the direct translation of our English \'U\'. If you look closely you can see that \'う\' looks like a \'U\' on its side. Use this to help you remember.</string>
     <string name="jap5Body">\nSounds like the \'E\' in \'Egg\'.\n\nThe symbol for this sound is \'え\' which, when you look at it really hard, looks like a bird, an \'e\'xotic bird. Use this to help you.</string>
     <string name="jap6Body">\nSounds like \'oh\', or like the \'O\' in our English alphabet.\n\nThis is a simple one to remember. The symbol for this sound is \'お\' and this symbol has a \'o\' shape inside of it.\n\'O\' is how it is pronounced in English and also how it looks in Japanese.</string>
     <string name="title_activity_act_jap4">actJap4</string>
@@ -33,23 +33,28 @@
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
     </array>
+    <string name="creatureTitle1">ねこ</string>
+    <string name="creatureTitle2">いぬ</string>
+    <string name="creatureTitle3">うさぎ</string>
+    <string name="creatureTitle4">きつね</string>
     <string name="creatureText1">\nNow you can say the vowels, it\'s time to learn the words.\n\nHere, you will learn the words for 4 animals which may be included in the test at the end.\n\nAre you ready?</string>
-    <string name="creatureText2">\nDo you recognise this creature? \n\nThis is a cat. You or your friends may have one living with you.\n\nIn Japanese, a cat is \'Neko\'.\n\nTry saying this aloud, Neko.</string>
-    <string name="creatureText3">\nWhat about this one, can you name it?\n\nRabbit, usually kept in huts filled with straw to keep them comfy. Sometimes you can see them in the wild.\n\nThe Japanese know rabbit as \'Usagi\'.\n\nSay it with me, Usagi.</string>
-    <string name="creatureText4">\nThis creature we know as a dog.\n\nDogs are friendly, loyal animals that love to go on walks and bring back sticks you throw for them. You or your friends may have one.\n\nIn Japan, a dog is known as \'Inu\'. This word may sounds a little familiar. This is because there is a type of dog called a \'Shiba Inu\', meaning \'small dog\' or \'shrub dog\'\n\n Can you say Inu? Try it, Inu.</string>
-    <string name="creatureText5">\nYou may or may not recognise this creature. Can you guess what it is? It\'s a fox!\n\nFoxes have been known to roam around cities or keep to themselves in the wild.\n\nThe fox in Japanese is known by \'Kitsune\'. Say Kitsune aloud, Kitsune.\n\nThe next lesson will teach you what to call the close people around you.</string>
+    <string name="creatureText2">Do you recognise this creature? \n\nThis is a cat. You or your friends may be living with one\n\nIn Japanese, a cat is \'Neko\'.\n\nTry saying this aloud, Neko.</string>
+    <string name="creatureText3">What about this one, can you name it?\n\nRabbit, usually kept in huts filled with straw to keep them comfy. Sometimes you can see them in the wild.\n\nThe Japanese know rabbit as \'Usagi\'.\n\nSay it with me, Usagi.</string>
+    <string name="creatureText4">This creature we know as a dog.\n\nDogs are friendly, loyal animals that love to go on walks and bring back sticks you throw for them.\n\nIn Japan, a dog is known as \'Inu\'. This word may sounds a little familiar. This is because there is a type of dog called a \'Shiba Inu\', meaning \'small dog\' or \'shrub dog\'</string>
+    <string name="creatureText5">You may or may not recognise this creature. Can you guess what it is? It\'s a fox!\n\nFoxes have been known to roam around cities or keep to themselves in the wild.\n\nThe fox in Japanese is known by \'Kitsune\'. Say Kitsune aloud, Kitsune.</string>
     <string name="peopleTitle1">さん</string>
     <string name="peopleTitle2">ちゃん</string>
     <string name="peopleTitle3">せんぱい</string>
     <string name="peopleTitle4">せんせい</string>
     <string name="peopleBody1">\nIn this lesson, we will learn what you would call those around you.\n\nThis section can get a little confusing because it includes honorifics. \n\nThis may sound like a scary word but we will only focus on the common ones used in conversation.</string>
-    <string name="peopleBody2">\nThere are a lot of honorifics in Japanese. Honorifics are words that you put after a person\'s name and is a big part of everyday conversation, what you use depends on their position compared to you. This will make more sense later. If you do not use honorifics you might insult the other person.\n\nThe four honorifics you will be taught today are -san, -chan, -senpai/-kohai and -sensei.</string>
+    <string name="peopleBody2">\nThere are a lot of honorifics in Japanese. Honorifics are words that you put after a person\'s name and is a big part of everyday conversation, what you use depends on their position compared to you. This will make more sense later.\n\nIf you do not use honorifics or use the wrong one, you might insult the other person.\n\nThe four honorifics you will be taught today are -san, -chan, -senpai/-kohai and -sensei.</string>
     <string name="peopleBody3">\nWe will first learn about -san. San can be used in almost all conversations and more than likely not going to cause offense. San is used for your equals, if their position is the same as your. You might call your friends or other students in the same year -san.\n\nSan can also be used to call someone who you do not know or you do not know their position.</string>
     <string name="peopleBody4">\nChan has a cute meaning attached to it, a friendly meaning. You could call animals or pets -chan. You yourself might also be called -chan since it is typically used on young children. \nFor example, you might call your cat Neko-chan or your dog Inu-chan\n\nChan can also be used between close friends or relatives. Calling your teacher, or someone you do not closely know, might offend them.</string>
     <string name="peopleBody5">\nSenpai and Kohai are similar but different. Senpai is used for someone who is older than you or in a higher position than you. You would call older students -senpai.\n\nKohai is similar in the sense it is what Senpais would call you, or you would call people younger than you.\n\nSenpai and Kohai can also be used alone, without a name attached.</string>
     <string name="peopleBody6">\nFourth and finally, there is -sensei. Sensei is used for people who have a massive amount of knowledge in what they know. Your teacher will be known as -sensei. Other people such as doctors, politicians and lawyers would be given the -sensei honorific.\n\nHowever -sensei can also be used sarcastically too. You could call a friend -sensei when making a joke with them, as long as it does not offend them.</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
+    <string name="testBody1">To see if we have remember what we have learned we shall answer some questions based on what we were taught in the earlier sections.</string>
     <string name="testQ1A1">Cat</string>
     <string name="testQ1A2">Dog</string>
     <string name="testQ1A3">Rabbit</string>
@@ -58,9 +63,12 @@
     <string name="testQ2A2">When talking to anyone</string>
     <string name="testQ2A3">When talking to someone older</string>
     <string name="testQ2A4">When talking to someone close</string>
-    <string name="testQ3A1">When talking to a teacher</string>
-    <string name="testQ3A2">When talking to anyone</string>
-    <string name="testQ3A3">When talking to someone older</string>
-    <string name="testQ3A4">When talking to someone close</string>
-
+    <string name="testQ3A1">"Sure, Student-kohai."</string>
+    <string name="testQ3A2">"What do you need help with, Student-chan?"</string>
+    <string name="testQ3A3">"You need help with something, Student-sensei?"</string>
+    <string name="testQ3A4">"Anytime, Student"</string>
+    <string name="testQ4A1">Kitten</string>
+    <string name="testQ4A2">Puppy</string>
+    <string name="testQ4A3">Baby Rabbit</string>
+    <string name="testQ4A4">Baby Fox</string>
 </resources>
