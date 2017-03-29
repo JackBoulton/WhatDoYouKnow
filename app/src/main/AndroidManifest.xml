@@ -93,7 +93,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".actPeople5" />
-        <activity android:name=".actPeople6"></activity>
+        <activity android:name=".actPeople6" />
+        <activity android:name=".actTest4" />
+        <activity android:name=".actTest5" />
+        <activity android:name=".actTest6"></activity>
     </application>
 
 </manifest>
