@@ -47,7 +47,7 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:text="@string/jap2Title"
-                    android:textSize="80sp"
+                    android:textSize="75sp"
                     android:onClick="gotoJap2"/>
             </LinearLayout>
             <LinearLayout

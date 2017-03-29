@@ -4,37 +4,49 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:orientation="vertical">
-        <LinearLayout
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/TestQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nOtou-san is Father in Japanese. When would you use -san?\n"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/answer1"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:padding="15dp"
-            android:layout_weight="0.3"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textSize="18sp"/>
-        </LinearLayout>
-        <LinearLayout
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/TestQuestion"
+            android:text="@string/testQ2A1"
+            android:onClick="answer1"/>
+        <Button
+            android:id="@+id/answer2"
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:paddingBottom="10dp"
-            android:orientation="vertical"
-            android:layout_weight="0.5">
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/template"
-                android:onClick=""/>
-        </LinearLayout>
-    </LinearLayout>
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/answer1"
+            android:text="@string/testQ2A2"
+            android:onClick="answer2"/>
+        <Button
+            android:id="@+id/answer3"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/answer2"
+            android:text="@string/testQ2A3"
+            android:onClick="answer3"/>
+        <Button
+            android:id="@+id/answer4"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/answer3"
+            android:text="@string/testQ2A4"
+            android:onClick="answer4"/>
+
+    </RelativeLayout>
     <ListView
         android:id="@+id/left_drawer"
         android:layout_width="240dp"

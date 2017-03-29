@@ -153,4 +153,16 @@ public class BaseActivity extends AppCompatActivity {
         Intent intJap6 = new Intent(this, actJap6.class);
         startActivity(intJap6);
     }
+    public void gotoPeople3(View view){
+        startActivity(new Intent(this,actPeople3.class));
+    }
+    public void gotoPeople4(View view){
+        startActivity(new Intent(this,actPeople4.class));
+    }
+    public void gotoPeople5(View view){
+        startActivity(new Intent(this,actPeople5.class));
+    }
+    public void gotoPeople6(View view){
+        startActivity(new Intent(this,actPeople6.class));
+    }
 }

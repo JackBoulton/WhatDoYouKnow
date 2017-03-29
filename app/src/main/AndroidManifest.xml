@@ -83,7 +83,17 @@
         <activity android:name=".actTest2" />
         <activity android:name=".actTest3" />
         <activity android:name=".actCreature5" />
-        <activity android:name=".actPeople2"></activity>
+        <activity android:name=".actPeople2" />
+        <activity android:name=".actPeople3" />
+        <activity android:name=".actPeople4">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".actPeople5" />
+        <activity android:name=".actPeople6"></activity>
     </application>
 
 </manifest>

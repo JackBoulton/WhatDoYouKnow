@@ -38,11 +38,29 @@
     <string name="creatureText3">\nWhat about this one, can you name it?\n\nRabbit, usually kept in huts filled with straw to keep them comfy. Sometimes you can see them in the wild.\n\nThe Japanese know rabbit as \'Usagi\'.\n\nSay it with me, Usagi.</string>
     <string name="creatureText4">\nThis creature we know as a dog.\n\nDogs are friendly, loyal animals that love to go on walks and bring back sticks you throw for them. You or your friends may have one.\n\nIn Japan, a dog is known as \'Inu\'. This word may sounds a little familiar. This is because there is a type of dog called a \'Shiba Inu\', meaning \'small dog\' or \'shrub dog\'\n\n Can you say Inu? Try it, Inu.</string>
     <string name="creatureText5">\nYou may or may not recognise this creature. Can you guess what it is? It\'s a fox!\n\nFoxes have been known to roam around cities or keep to themselves in the wild.\n\nThe fox in Japanese is known by \'Kitsune\'. Say Kitsune aloud, Kitsune.\n\nThe next lesson will teach you what to call the close people around you.</string>
-    <string name="peopleBody1">In this lesson, we will learn what you would call those around you.\n\nThis section can get a little confusing because it includes honorifics. \n\nThis may sound like a scary word but we will only focus on the common ones for each word.\n\nBecause of honorifics, there will only be three new words in this lesson as not to throw too much new stuff at you.</string>
+    <string name="peopleTitle1">さん</string>
+    <string name="peopleTitle2">ちゃん</string>
+    <string name="peopleTitle3">せんぱい</string>
+    <string name="peopleTitle4">せんせい</string>
+    <string name="peopleBody1">\nIn this lesson, we will learn what you would call those around you.\n\nThis section can get a little confusing because it includes honorifics. \n\nThis may sound like a scary word but we will only focus on the common ones used in conversation.</string>
+    <string name="peopleBody2">\nThere are a lot of honorifics in Japanese. Honorifics are words that you put after a person\'s name and is a big part of everyday conversation, what you use depends on their position compared to you. This will make more sense later. If you do not use honorifics you might insult the other person.\n\nThe four honorifics you will be taught today are -san, -chan, -senpai/-kohai and -sensei.</string>
+    <string name="peopleBody3">\nWe will first learn about -san. San can be used in almost all conversations and more than likely not going to cause offense. San is used for your equals, if their position is the same as your. You might call your friends or other students in the same year -san.\n\nSan can also be used to call someone who you do not know or you do not know their position.</string>
+    <string name="peopleBody4">\nChan has a cute meaning attached to it, a friendly meaning. You could call animals or pets -chan. You yourself might also be called -chan since it is typically used on young children. \nFor example, you might call your cat Neko-chan or your dog Inu-chan\n\nChan can also be used between close friends or relatives. Calling your teacher, or someone you do not closely know, might offend them.</string>
+    <string name="peopleBody5">\nSenpai and Kohai are similar but different. Senpai is used for someone who is older than you or in a higher position than you. You would call older students -senpai.\n\nKohai is similar in the sense it is what Senpais would call you, or you would call people younger than you.\n\nSenpai and Kohai can also be used alone, without a name attached.</string>
+    <string name="peopleBody6">\nFourth and finally, there is -sensei. Sensei is used for people who have a massive amount of knowledge in what they know. Your teacher will be known as -sensei. Other people such as doctors, politicians and lawyers would be given the -sensei honorific.\n\nHowever -sensei can also be used sarcastically too. You could call a friend -sensei when making a joke with them, as long as it does not offend them.</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
-    <string name="testQ1A1">Answer 1</string>
-    <string name="testQ1A2">Answer 2</string>
-    <string name="testQ1A3">Answer 3</string>
-    <string name="testQ1A4">Answer 4</string>
+    <string name="testQ1A1">Cat</string>
+    <string name="testQ1A2">Dog</string>
+    <string name="testQ1A3">Rabbit</string>
+    <string name="testQ1A4">Fox</string>
+    <string name="testQ2A1">When talking to a teacher</string>
+    <string name="testQ2A2">When talking to anyone</string>
+    <string name="testQ2A3">When talking to someone older</string>
+    <string name="testQ2A4">When talking to someone close</string>
+    <string name="testQ3A1">When talking to a teacher</string>
+    <string name="testQ3A2">When talking to anyone</string>
+    <string name="testQ3A3">When talking to someone older</string>
+    <string name="testQ3A4">When talking to someone close</string>
+
 </resources>
