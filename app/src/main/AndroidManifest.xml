@@ -7,13 +7,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        android:theme="@style/AppTheme">
 
         <!-- main activity -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -75,28 +74,36 @@
                 android:name="android:support.actJap5"
                 android:value="dim.whatdoyouknow.actJap5" />
         </activity>
-        <activity android:name=".actCreature2" />
+        <activity android:name=".actCreature2"
+            android:label="Neko - ねこ" />
         <activity android:name=".templateActivity" />
-        <activity android:name=".actTest" />
-        <activity android:name=".actCreature3" />
-        <activity android:name=".actCreature4" />
-        <activity android:name=".actTest2" />
-        <activity android:name=".actTest3" />
-        <activity android:name=".actCreature5" />
-        <activity android:name=".actPeople2" />
-        <activity android:name=".actPeople3" />
-        <activity android:name=".actPeople4">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".actPeople5" />
-        <activity android:name=".actPeople6" />
-        <activity android:name=".actTest4" />
-        <activity android:name=".actTest5" />
-        <activity android:name=".actTest6"></activity>
+        <activity android:name=".actTest"
+            android:label="Question Time!"/>
+        <activity android:name=".actCreature3"
+            android:label="Usagi - うさぎ"/>
+        <activity android:name=".actCreature4"
+            android:label="Inu - いぬ"/>
+        <activity android:name=".actTest2"
+            android:label="Question 1"/>
+        <activity android:name=".actTest3"
+            android:label="Question 2"/>
+        <activity android:name=".actCreature5"
+            android:label="Kitsune - きつね"/>
+        <activity android:name=".actPeople2"
+            android:label="Honorifics"/>
+        <activity android:name=".actPeople3"
+            android:label="San - さん"/>
+        <activity android:name=".actPeople4"
+            android:label="Chan - ちゃん"/>
+        <activity android:name=".actPeople5"
+            android:label="Senpai - せんぱい"/>
+        <activity android:name=".actPeople6"
+            android:label="Sensei - せんせい"/>
+        <activity android:name=".actTest4"
+            android:label="Question 3"/>
+        <activity android:name=".actTest5"
+            android:label="Question 4"/>
+        <activity android:name=".actTest6"/>
     </application>
 
 </manifest>
