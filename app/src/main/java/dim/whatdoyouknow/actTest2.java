@@ -31,7 +31,7 @@ public class actTest2 extends BaseActivity {
         Toast.makeText(this, "That's not it, try again", Toast.LENGTH_SHORT).show();
     }
     public void answer4 (View view){
-        stopMusic();
+        player.stop();
             Toast.makeText(this, "That's right!", Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override

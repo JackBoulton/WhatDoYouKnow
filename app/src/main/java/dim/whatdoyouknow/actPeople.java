@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-    public class actPeople extends BaseActivity {
+    public class actPeople extends peoNav {
 
 
     @Override
@@ -18,8 +18,5 @@ import android.view.View;
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         player = MediaPlayer.create(this, R.raw.peopleclip1);
         player.start();
-    }
-    public void gotoPeople2(View view){
-        startActivity(new Intent(this,actPeople2.class));
     }
 }

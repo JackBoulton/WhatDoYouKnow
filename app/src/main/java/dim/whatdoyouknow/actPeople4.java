@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class actPeople4 extends BaseActivity {
+public class actPeople4 extends peoNav {
 
 
     @Override

@@ -7,7 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
-public class actCreature4 extends BaseActivity {
+public class actCreature4 extends creNav {
 
 
     @Override

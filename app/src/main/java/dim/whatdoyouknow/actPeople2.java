@@ -7,7 +7,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 
-public class actPeople2 extends BaseActivity {
+public class actPeople2 extends peoNav {
 
 
     @Override

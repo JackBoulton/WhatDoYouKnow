@@ -33,10 +33,10 @@ public class actTest3 extends BaseActivity {
     public void answer2 (View view){
         Toast.makeText(this, "That's right!", Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                startActivity(new Intent(getApplicationContext(), actTest4.class));
-            }
-        }, 2000);    stopMusic();
-    }
+        @Override
+        public void run() {
+            startActivity(new Intent(getApplicationContext(), actTest4.class));
+        }
+    }, 2000);    player.stop();
+}
 }

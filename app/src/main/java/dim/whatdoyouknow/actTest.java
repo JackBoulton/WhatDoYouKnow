@@ -21,6 +21,6 @@ public class actTest extends BaseActivity{
     public void gotoTest2 (View view) {
         Intent intTest2 = new Intent (this, actTest2.class);
         startActivity(intTest2);
-        stopMusic();
+        player.stop();
     }
 }

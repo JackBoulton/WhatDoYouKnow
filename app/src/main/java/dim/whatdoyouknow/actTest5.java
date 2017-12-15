@@ -37,6 +37,6 @@ public class actTest5 extends BaseActivity {
             public void run() {
                 startActivity(new Intent(getApplicationContext(), actTest6.class));
             }
-        }, 2000);    stopMusic();
+        }, 2000);    player.stop();
     }
 }

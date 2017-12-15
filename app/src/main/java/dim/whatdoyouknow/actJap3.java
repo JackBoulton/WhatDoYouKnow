@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class actJap3 extends BaseActivity {
+public class actJap3 extends japNav {
 
 
     @Override
@@ -18,5 +18,8 @@ public class actJap3 extends BaseActivity {
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         player = MediaPlayer.create(this, R.raw.speakclip3);
         player.start();
+    }
+    public void onBackPressed(){
+        startActivity(new Intent(this, actJap2.class));
     }
 }

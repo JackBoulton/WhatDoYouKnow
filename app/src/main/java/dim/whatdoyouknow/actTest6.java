@@ -10,11 +10,11 @@ public class actTest6 extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_act_test6);
+        super.onCreate(savedInstanceState);
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
-        //player = MediaPlayer.create(this, R.raw.testclip6);
+        //player = MediaPlayer.create(this, R.raw.testclip5);
         player.start();
     }
 }
