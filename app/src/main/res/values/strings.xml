@@ -24,8 +24,10 @@
         <item>Creatures</item>
         <item>People</item>
         <item>Hirigana</item>
+        <item>Mute</item>
     </string-array>
     <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
         <item>@drawable/ic_launcher</item>
@@ -55,6 +57,7 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="testBody1">To see if we have remember what we have learned we shall answer some questions based on what we were taught in the earlier sections.</string>
+    <string name="testBody2">Well done! You have answered all the question! Please look forward to new lessons and new questions being added later on!.</string>
     <string name="testQ1A1">Cat</string>
     <string name="testQ1A2">Dog</string>
     <string name="testQ1A3">Rabbit</string>

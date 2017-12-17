@@ -24,6 +24,7 @@
                 android:name="android.support.MainActivity"
                 android:value="dim.whatdoyouknow.MainActivity" />
         </activity>
+
         <activity
             android:name=".actPeople"
             android:label="People">
@@ -31,6 +32,7 @@
                 android:name="android.support.MainActivity"
                 android:value="dim.whatdoyouknow.MainActivity" />
         </activity>
+
         <activity
             android:name=".actCreature"
             android:label="Creatures">
@@ -41,54 +43,93 @@
         <!-- children of actJap -->
         <activity
             android:name=".actJap2"
-            android:label="A - あ">
+            android:label="A - あ"
+            android:parentActivityName=".actJap">
             <meta-data
-                android:name="android:support.actJap"
+                android:name="android:support.PARENT_ACTIVITY"
                 android:value="dim.whatdoyouknow.actJap" />
         </activity>
+
         <activity
             android:name=".actJap3"
-            android:label="I - い">
+            android:label="I - い"
+            android:parentActivityName=".actJap2">
             <meta-data
-                android:name="android:support.actJap2"
+                android:name="android:support.PARENT_ACTIVITY"
                 android:value="dim.whatdoyouknow.actJap2" />
         </activity>
+
         <activity
             android:name=".actJap4"
-            android:label="U - う">
+            android:label="U - う"
+            android:parentActivityName=".actJap3">
             <meta-data
-                android:name="android:support.actJap3"
+                android:name="android:support.PARENT_ACTIVITY"
                 android:value="dim.whatdoyouknow.actJap3" />
         </activity>
+
         <activity
             android:name=".actJap5"
-            android:label="E - え">
+            android:label="E - え"
+            android:parentActivityName=".actJap4">
             <meta-data
-                android:name="android:support.actJap4"
+                android:name="android:support.PARENT_ACTIVITY"
                 android:value="dim.whatdoyouknow.actJap4" />
         </activity>
+
         <activity
             android:name=".actJap6"
-            android:label="O - お">
+            android:label="O - お"
+            android:parentActivityName=".actJap5">
             <meta-data
-                android:name="android:support.actJap5"
+                android:name="android:support.PARENT_ACTIVITY"
                 android:value="dim.whatdoyouknow.actJap5" />
         </activity>
-        <activity android:name=".actCreature2"
-            android:label="Neko - ねこ" />
-        <activity android:name=".templateActivity" />
+
+        <activity
+            android:name=".actCreature2"
+            android:label="Neko - ねこ"
+            android:parentActivityName=".actCreature">
+        <meta-data
+            android:name="android:support.PARENT_ACTIVITY"
+            android:value="dim.whatdoyouknow.actCreature" />
+        </activity>
+
+        <activity android:name=".actCreature3"
+            android:label="Usagi - うさぎ"
+            android:parentActivityName=".actCreature2">
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+            android:value="dim.whatdoyouknow.actCreature2"/>
+        </activity>
+
+        <activity android:name=".actCreature4"
+            android:label="Inu - いぬ"
+            android:parentActivityName=".actCreature3">
+        <meta-data
+            android:name="android:support.PARENT_ACTIVITY"
+            android:value="dim.whatdoyouknow.actCreature3"/>
+        </activity>
+
+        <activity android:name=".actCreature5"
+            android:label="Kitsune - きつね"
+            android:parentActivityName=".actCreature4">
+        <meta-data
+            android:name="android:support.PARENT_ACTIVITY"
+            android:value="dim.whatdoyouknow.actCreature4"/>
+        </activity>
+
         <activity android:name=".actTest"
             android:label="Question Time!"/>
-        <activity android:name=".actCreature3"
-            android:label="Usagi - うさぎ"/>
-        <activity android:name=".actCreature4"
-            android:label="Inu - いぬ"/>
         <activity android:name=".actTest2"
             android:label="Question 1"/>
         <activity android:name=".actTest3"
             android:label="Question 2"/>
-        <activity android:name=".actCreature5"
-            android:label="Kitsune - きつね"/>
+        <activity android:name=".actTest4"
+            android:label="Question 3"/>
+        <activity android:name=".actTest5"
+            android:label="Question 4"/>
+        <activity android:name=".actTest6"/>
         <activity android:name=".actPeople2"
             android:label="Honorifics"/>
         <activity android:name=".actPeople3"
@@ -99,11 +140,7 @@
             android:label="Senpai - せんぱい"/>
         <activity android:name=".actPeople6"
             android:label="Sensei - せんせい"/>
-        <activity android:name=".actTest4"
-            android:label="Question 3"/>
-        <activity android:name=".actTest5"
-            android:label="Question 4"/>
-        <activity android:name=".actTest6"/>
+        <activity android:name=".templateActivity" />
     </application>
 
 </manifest>

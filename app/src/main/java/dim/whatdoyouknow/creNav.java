@@ -1,7 +1,9 @@
 package dim.whatdoyouknow;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
+import android.support.v4.app.NavUtils;
 
 /**
  * Created by Jack on 15/12/2017.

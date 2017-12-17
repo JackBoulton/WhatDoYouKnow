@@ -1,9 +1,12 @@
 package dim.whatdoyouknow;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +26,7 @@ public class BaseActivity extends AppCompatActivity {
     private CharSequence mTitle;
     private String[] mTitles;
     public MediaPlayer player;
+    static AudioManager audioManager;
     /*@Override
     public void setContentView(@LayoutRes int layoutResID) {
         super.setContentView(layoutResID);
@@ -30,6 +34,8 @@ public class BaseActivity extends AppCompatActivity {
     }*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        audioManager = (AudioManager)getSystemService(Context.AUDIO_SERVICE);
+        //setVolumeControlStream(AudioManager.STREAM_MUSIC);
         super.onCreate(savedInstanceState);
         mTitle = mDrawerTitle = getTitle();
         mTitles = getResources().getStringArray(R.array.titleArray);
@@ -73,6 +79,12 @@ public class BaseActivity extends AppCompatActivity {
         });
     }
     @Override
+    public void startActivityForResult(Intent intent, int requestCode) {
+        if (intent != null) {
+            super.startActivityForResult(intent, requestCode);
+        }
+    }
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (mDrawerToggle.onOptionsItemSelected(item)) {
@@ -96,44 +108,40 @@ public class BaseActivity extends AppCompatActivity {
                 if(player != null){
                     player.stop();
                 }
-                finish();
                 break;
             case 1:
                 intent = new Intent(this, actJap.class);
                 if(player != null){
                     player.stop();
                 }
-                finish();
                 break;
             case 2:
                 intent = new Intent(this, actCreature.class);
                 if(player != null){
                     player.stop();
                 }
-                finish();
                 break;
             case 3:
                 intent = new Intent(this, actPeople.class);
                 if(player != null){
                     player.stop();
                 }
-                finish();
                 break;
             case 4:
                 intent = new Intent(this, actTest.class);
                 if(player != null){
                     player.stop();
                 }
-                finish();
                 break;
-            default:
+            case 5:
+                audioManager.adjustStreamVolume(AudioManager.STREAM_MUSIC,AudioManager.ADJUST_TOGGLE_MUTE,AudioManager.FLAG_SHOW_UI);
+            /*default:
                 intent = new Intent(this, MainActivity.class);
                 if(player != null){
                     player.stop();
                 }
                 // Activity_0 as default
-                finish();
-                break;
+                break;*/
         }
         startActivity(intent);
         mDrawerList.setItemChecked(position, true);
@@ -162,9 +170,10 @@ public class BaseActivity extends AppCompatActivity {
 /*Jap Navigation*/
     public void goHome(View view) {
         startActivity(new Intent(this, MainActivity.class));
-        player.stop();
-    }
-    public void onBackPressed(){
+        if(player!= null) player.stop();
+        }
+public void onBackPressed(){
         if(player != null) player.stop();
-    }
-}
+        finish();
+        }
+        }

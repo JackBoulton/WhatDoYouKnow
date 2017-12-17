@@ -3,6 +3,7 @@ package dim.whatdoyouknow;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -16,8 +17,5 @@ public class actJap2 extends japNav {
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         player = MediaPlayer.create(this, R.raw.speakclip2);
         player.start();
-    }
-    public void onBackPressed(){
-        startActivity(new Intent(this, actJap.class));
     }
 }

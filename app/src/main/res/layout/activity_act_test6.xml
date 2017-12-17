@@ -4,47 +4,39 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <!--<LinearLayout
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="0dp"
+        android:layout_height="fill_parent"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-            <Button
-                android:layout_width="0px"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-                android:text="@string/button_speak"
-                android:onClick="gotoJap" />
-            <Button
-                android:layout_width="0px"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-                android:text="@string/button_creature"
-                android:onClick="gotoCreature"/>
+            android:layout_height="fill_parent"
+            android:padding="15dp"
+            android:layout_weight="0.3"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/testBody2"
+                android:textSize="18sp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal"
-            android:layout_weight="1">
+            android:layout_height="fill_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:orientation="vertical"
+            android:layout_weight="0.5">
             <Button
-                android:layout_width="0px"
+                android:id="@+id/goHome"
+                android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-                android:text="@string/button_people"
-                android:onClick="gotoPeople"/>
-            <Button
-                android:layout_width="0px"
-                android:layout_height="fill_parent"
-                android:layout_weight="0.5"
-                android:text="@string/button_test"
-                android:onClick="gotoTest"/>
+                android:text=""
+                android:textSize="80sp"
+                android:onClick="goHome"/>
         </LinearLayout>
-    </LinearLayout>-->
+    </LinearLayout>
 <ListView
 android:id="@+id/left_drawer"
 android:layout_width="240dp"

@@ -1,9 +1,11 @@
 package dim.whatdoyouknow;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
 
 public class actTest6 extends BaseActivity {
 
@@ -15,6 +17,6 @@ public class actTest6 extends BaseActivity {
 
         setVolumeControlStream(AudioManager.STREAM_MUSIC);
         //player = MediaPlayer.create(this, R.raw.testclip5);
-        player.start();
+        //player.start();
     }
 }
